@@ -1,8 +1,16 @@
 .breadcrumb {
-    font-size: 14px;
-    color: var(--grisClaro);
+  font-size: 14px;
+  color: var(--grisClaro);
+  list-style: none;
 
-    span {
-        font-weight: bold;
+  li {
+    display: inline-block;
+    svg {
+      font-size: 25px;
+      margin: 0 8px;
     }
+    .bold {
+      font-weight: bold;
+    }
+  }
 }

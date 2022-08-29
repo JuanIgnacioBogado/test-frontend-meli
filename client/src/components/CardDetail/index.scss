@@ -34,8 +34,8 @@
         line-height: 1;
         font-weight: normal;
         margin: 32px 0;
-
         display: flex;
+
         small {
           font-size: 20px;
         }
@@ -60,6 +60,7 @@
   }
 
   .card-description {
+    margin-top: 32px;
     h2 {
       font-size: 28px;
       font-weight: normal;
