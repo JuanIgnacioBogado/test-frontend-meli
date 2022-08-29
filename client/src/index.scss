@@ -1,0 +1,27 @@
+// Vars
+:root {
+    --myFont: 'Proxima Nova', sans-serif;
+    --amarillo: #FFE600;
+    --negro: #333;
+    --grisOscuro: #666;
+    --grisClaro: #999;
+    --blanco: #EEE;
+    --azul: #3483FA;
+    --borderRadius: 3px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--myFont);
+    background-color: var(--blanco);
+    color: var(--negro);
+}
+
+.mx {
+    margin: 0 16px;
+}

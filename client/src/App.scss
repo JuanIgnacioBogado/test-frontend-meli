@@ -1,0 +1,19 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content {
+  background-color: white;
+  border-radius: var(--borderRadius);
+  margin-top: 16px;
+  padding: 16px;
+  margin-bottom: 32px;
+
+  hr {
+    border: 1px solid var(--blanco);
+    width: 98%;
+    margin: 0 auto;
+  }
+}

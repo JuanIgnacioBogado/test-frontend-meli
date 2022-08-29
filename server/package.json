@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este es un mini servidor que consulta la api de meli y devuelve los datos solicitados por el cliente",
   "main": "index.js",
   "type": "module",
   "scripts": {

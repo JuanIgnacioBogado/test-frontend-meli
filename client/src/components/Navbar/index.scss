@@ -1,0 +1,57 @@
+header {
+  width: 100%;
+  background-color: var(--amarillo);
+  margin-bottom: 16px;
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 10px 0;
+
+    .logo {
+      width: 50px;
+      img {
+        width: 100%;
+        object-fit: cover;
+        vertical-align: top;
+      }
+    }
+
+    .input-search {
+      display: flex;
+      width: 100%;
+
+      input {
+        width: 100%;
+        border-radius: var(--borderRadius) 0 0 var(--borderRadius);
+        border: none;
+        outline: none;
+        padding: 7px 60px 9px 15px;
+        height: 40px;
+        font-family: var(--myFont);
+        font-size: 18px;
+        &::placeholder {
+          color: var(--grisClaro)
+        }
+      }
+
+      .lupa {
+        width: 50px;
+        height: 40px;
+        display: grid;
+        place-content: center;
+        border-radius: 0 var(--borderRadius) var(--borderRadius) 0;
+        background-color: var(--blanco);
+        cursor: pointer;
+
+        img {
+          width: 20px;
+          object-fit: cover;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+}
