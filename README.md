@@ -40,7 +40,7 @@ Pero en cuanto pueda lo subo a github-pages así no es necesario clonarlo para p
 PORT=4000
 * npm run dev para levantarlo.
 
-## Backend
+## Frontend
 * El archivo .env de un proyecto en vite tiene que tener por nombre .env.local ademas de comenzar el nombre de la variable con VITE_
 * Definir la variable de entorno como se muestra a continuación, y colocar la url del servidor ya sea local o desplegado.
 VITE_SERVER_URL=http://localhost:4000/api
